@@ -54,7 +54,7 @@ footer {
   padding-top: 10px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1920px) {
   article {
     margin-bottom: 10px;
   }
