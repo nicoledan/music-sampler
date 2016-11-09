@@ -1,0 +1,49 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #81FFB1;
+  color: #000;
+}
+
+img {
+  max-width:100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+article {
+  background: #94CCC9;
+  margin:auto;
+  padding: 40px;
+  width: 800px;
+}
+
+#bigImage {
+  margin: auto;
+}
+
+.covers {
+  margin:auto;
+  padding-top: 20px;
+  padding-left: 62.5px;
+}
+
+.songs {
+  background: #FFC0D4;
+  width: 340px;
+  margin:auto;
+}
+
+#one, #two, #three, #four {
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
