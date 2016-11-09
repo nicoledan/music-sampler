@@ -23,7 +23,7 @@ article {
   background: #94CCC9;
   margin:auto;
   padding: 40px;
-  width: 800px;
+  max-width: 700px;
 }
 
 .covers {
@@ -34,12 +34,40 @@ article {
 
 .songs {
   background: #FFC0D4;
-  width: 340px;
+  max-width: 340px;
   margin:auto;
+}
+
+.songTitle {
+  text-align: center;
+  padding-top: 5px;
 }
 
 #one, #two, #three, #four {
   padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media (max-width: 450px) {
+  article {
+    margin-bottom: 10px;
+  }
+
+#one {
+  padding-top: 10px;
+}
+
+#one, #two, #three, #four {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.songs {
+  max-width: 320px;
+}
+  img {
+    margin: auto;
+  }
 }
