@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+  $("#review").hide();
+
+$("#bigImage").click(function() {
+    $("#review").slideToggle();
+});
+
+
 function hideAll(){
   $("#firstSong").hide();
   $("#secondSong").hide();
