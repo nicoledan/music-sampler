@@ -18,6 +18,10 @@ hideAll();
 
 $(".covers").click(function(){
   hideAll();
+  $("audio").each(function() {
+      this.pause();
+      this.currentTime = 0;
+  });
   switch ($(this).attr("id")){
     case "dangerouslyInLoveCover":
       $("#firstSong").show();
